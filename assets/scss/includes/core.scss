@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap&subset=cyrillic');
+
+html {
+  font-family: $font-family;
+  font-size: 0.9rem;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+button, h1, h2, h3, h4, h5, h6, span, p, div, span {
+  font-family: $font-family;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.page-wrapper {
+  padding: 1em 0;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .page-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+  }
+}
