@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  puzzle:
+    image: antonperk/15puzzlegame:latest
+    container_name: puzzlegame
+    restart: always
+    ports:
+      - "5000:5000"
