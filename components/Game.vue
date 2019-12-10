@@ -32,7 +32,7 @@
 
 <script>
 import _ from "lodash";
-import { recalculateCoords, guessSwitchElement } from "@/utils/game";
+import { recalculateCoords, guessSwitchElement, shuffle } from "@/utils/game";
 import { swap } from "@/utils/array";
 
 const makeCellSet = () => {
@@ -117,7 +117,7 @@ export default {
       this.interval = setInterval(() => {
         this.seconds++;
       }, 1000);
-      this.cellSet = recalculateCoords(_.shuffle(this.cellSet));
+      this.cellSet = recalculateCoords(shuffle(this.cellSet));
     },
 
     stop() {
