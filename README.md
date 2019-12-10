@@ -18,5 +18,8 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Using Docker
+``` bash
+docker pull antonperk/15puzzlegame
+# docker-compose up -d
+```
