@@ -15,7 +15,7 @@ $ yarn dev
 $ yarn build
 $ yarn start 
 
-# generate static project
+# generate static project  
 $ yarn generate
 ```
 ## Using Docker
